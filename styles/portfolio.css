@@ -1,0 +1,129 @@
+/* font style of the entire portfolio */
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* -------------- */
+
+
+/* shared styles */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.dark-3{
+    color: #757575;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+}
+/* -------------- */
+
+
+/* header styles */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+/* -------------- */
+
+
+/* navbar styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title{
+    font-weight: b;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    /* remove the . sign from the list items */
+    margin-right: 50px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    /* remove the underline of the anchor link */
+    font-size: 20px;
+}
+/* -------------- */
+
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 585px;
+    margin-top: 120px;
+}
+
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+}
+
+div h3,h1{
+    margin: 0;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+div h1,p{
+    margin-bottom: 0px;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+
+div > button,p{
+    margin-top: 30px;
+}
+
+div > button{
+    margin-right: 30px;
+}
+
+.banner-profile-pic{
+    width: 580px;
+}
+/* -------------- */
