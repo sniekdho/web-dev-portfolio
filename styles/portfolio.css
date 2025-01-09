@@ -10,6 +10,10 @@
 
 
 /* shared styles */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -35,6 +39,17 @@
     border: none;
     border-radius: 5px;
 }
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.section-description{
+    font-size: 18px;
+    text-align: center;
+}
 /* -------------- */
 
 
@@ -43,7 +58,6 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    background-color: #FFF8F3;
 }
 /* -------------- */
 
@@ -127,3 +141,96 @@ div > button{
     width: 580px;
 }
 /* -------------- */
+
+/* Main Styles */
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+/* About Sections Styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: rgb(245, 243, 243);
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 180px;
+}
+
+.item-title{
+    font-size: 20px;
+}
+
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* -------------- */
+
+
+/* Skills Section Styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+}
+/* -------------- */
+
+/* Resume Section Styles */
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.education-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.resume-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.resume-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-description{
+    font-size: 16px;
+}
+
+.experience-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-btn{
+    text-align: center;
+    margin-top: 50px;
+}
